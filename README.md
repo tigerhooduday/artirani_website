@@ -1,2 +1,5 @@
 this is website of arti rani.
-devloped by uday garg and Arzoo Rathur
+developed by uday garg and arzoo Rathaur
+for our only tatti....<3
+g
+i
