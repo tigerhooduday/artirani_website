@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}html{
+
+
+
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+.contain{
+    display: flex;
+    position: fixed;
+    bottom: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    height: 550px;
+    width: 85%;
+    margin-left: 8%;
+    margin-right: 10%;
+    box-shadow:  15px 10px 20px #0400ff,
+                -24px -24px 51px #ff0808;
+    
+    
+  }
+
+
+  .lef{
+
+    width: 27%;
+    
+}
+#artivid{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 95px;
+    box-shadow:  24px 24px 51px #575454,
+                -24px -24px 51px #4c435a;
+}
+
+
+br.hh{
+    display: none;
+}
+
+
+.inl{
+
+    padding-top: 190px;
+
+   
+}
+
+.typewriter h1 {
+    font-family: 'Fasthand', cursive;
+    font-size: 41px;;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(37, 218, 224); }
+  }
+
+
+
+  @media only screen and  (max-width: 1000px){
+
+    .contain{
+        display: block;
+        position: fixed;
+        bottom: 8%;
+        background: rgba(255, 255, 255, 0.5);
+        color: #000000;
+        height: 750px;
+        width: 85%;
+        margin-left: 8%;
+        margin-right: 10%;
+        box-shadow:  15px 10px 20px #21d3ff,
+                    -24px -24px 21px #f3e4a3;
+        
+        
+      }
+
+      #artivid{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-left: 25%;
+        margin-top: 11%;
+        box-shadow:  24px 24px 51px #a8c3f7,
+                    -24px -24px 51px #ff4949;
+    }
+    br.hh{
+       display:inline ;
+    }
+    .inl{
+        
+    }
+
+  }
